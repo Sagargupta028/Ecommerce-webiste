@@ -1,0 +1,39 @@
+.alice-carousel__prev-btn, .alice-carousel__next-btn {
+    background-color: #f1f0f0;  /* Light background */
+    border-radius: 50%;          /* Circular buttons */
+    width: 40px;                 /* Width of button */
+    height: 40px;                /* Height of button */
+    border: none;                /* Remove default border */
+    display: flex;               /* Use flexbox for centering */
+    justify-content: center;     /* Center horizontally */
+    align-items: center;         /* Center vertically */
+    position: absolute;          /* Position absolutely */
+    top: 50%;                    /* Center vertically in the container */
+    transform: translateY(-50%); /* Adjust for true centering */
+    z-index: 10;                 /* Ensure the buttons are on top */
+    padding-top: 5px;
+}
+
+
+
+/* Change the icon color and button background on hover */
+.alice-carousel__prev-btn:hover, .alice-carousel__next-btn:hover {
+    background-color: #b2b2b2;  /* Change background color on hover */
+}
+
+
+/* Position the previous button on the left side of the screen */
+.alice-carousel__prev-btn {
+    left: -40px; /* Position off-screen to the left */
+}
+
+/* Position the next button on the right side of the screen */
+.alice-carousel__next-btn {
+    right: -40px; /* Position off-screen to the right */
+}
+
+/* Optional: Style the icons within the buttons */
+.alice-carousel__prev-btn-item, .alice-carousel__next-btn-item {
+    font-size: 20px;  /* Increase icon size */
+    font-weight: 700;
+}
