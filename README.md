@@ -2,6 +2,14 @@
 
 A full-stack ecommerce application with a Node/Express REST API (MongoDB + Mongoose) backend and a React (Create React App) frontend. Includes authentication (JWT), product/catalog management, cart/checkout flows, and Razorpay payment integration.
 
+## 🎬 Demo Video
+
+Watch the application in action:
+
+[![Who's My Doc Demo](./assets/ecommerce.png)](https://drive.google.com/file/d/1ZaAJ9uPGCFwJ0J645tTTvc5uF9i603Pg/view?usp=sharing)
+
+*Click the image above to watch the demo video*
+
 ## Tech Stack
 - **Frontend**: React 18 (Create React App), React Router, Redux/Thunk, Material UI, Tailwind CSS (config present)
 - **Backend**: Node.js, Express, Mongoose/MongoDB, JWT, Bcrypt, Razorpay SDK, Dotenv, CORS
